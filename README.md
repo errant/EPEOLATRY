@@ -40,7 +40,18 @@ The core of the library are Parsers which take a file input and spit out text. T
 
 ## Adding Parsers
 
-(coming soon)
+Adding a parser is very simple. Firstly subclass epeolatry.parsers.ParserDefinition. Then implement a 'provides' function: 
+
+> def provides():
+>    for mime in ['application/pdf']:
+>        yield (mime, PDFParser)
+
+Finally; add an entry_point in your setup.py pointing to the relevant package:
+
+entry_points = """
+    [epeolatry.parsers]
+    pdf = epeolatry.parsers.pdf
+    """
 
 # To Do
 
