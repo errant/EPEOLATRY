@@ -17,7 +17,6 @@ setup(
     license='MIT',
     description='Document to TXT parsing',
     long_description=readme,
-    include_package_data=True,
     install_requires=requirements,
     entry_points = """
     [epeolatry.parsers]
@@ -29,7 +28,7 @@ setup(
         'Intended Audience :: Developers',
         'Natural Language :: English',
         'Operating System :: OS Independent',
-        'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 3 :: Only',
         'Topic :: Internet',
         'Topic :: Software Development :: Libraries',
         'Topic :: Software Development :: Libraries :: Python Modules',
