@@ -1,9 +1,11 @@
 # Epeolatry
+*(ˌɛpɪˈɒlətrɪ)*
 
-*n*
+*n.*
 
-    Literally, the worship of words
+    Literally, the worship of words.
 
+-------
 
 Epeolatry is an opinionated, extensible library for the extraction and tidying up of words from various document sources; for example images or PDF's.
 
@@ -34,8 +36,11 @@ The core of the library are Parsers which take a file input and spit out text. T
 
 ## Built-In Parsers
 
+* PDF
+
 ## Adding Parsers
 
+(coming soon)
 
 # To Do
 
