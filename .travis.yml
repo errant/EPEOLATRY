@@ -7,7 +7,6 @@ install:
   - python setup.py install
   - pip install nose coverage
 script:
-  - nosetests --nologcapture --with-coverage --cover-package=epeolatry
+  - nosetests --nologcapture --cover-branches --with-coverage --cover-package=epeolatry
 after_success:
-  - pip install coveralls && coveralls
   - pip install codecov && codecov

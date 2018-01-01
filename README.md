@@ -48,10 +48,10 @@ Adding a parser is very simple. Firstly subclass epeolatry.parsers.ParserDefinit
 
 Finally; add an entry_point in your setup.py pointing to the relevant package:
 
-entry_points = """
-    [epeolatry.parsers]
-    pdf = epeolatry.parsers.pdf
-    """
+> entry_points = """
+>    [epeolatry.parsers]
+>    pdf = epeolatry.parsers.pdf
+>    """
 
 # To Do
 
