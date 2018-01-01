@@ -5,6 +5,9 @@ python:
   - "3.6"
 install:
   - python setup.py install
-  - pip install nosetests
+  - pip install nose coverage
 script:
-  nosetests --nologcapture
+  - nosetests --nologcapture --with-coverage --cover-package=epeolatry
+after_success:
+  - pip install coveralls && coveralls
+  - pip install codecov && codecov
