@@ -20,7 +20,8 @@ setup(
     install_requires=requirements,
     entry_points = """
     [epeolatry.parsers]
-    pdf = epeolatry.parsers.pdf
+    pdf   = epeolatry.parsers.pdf
+    image = epeolatry.parsers.image
     """,
     classifiers=[
         'Development Status :: 4 - Beta',
