@@ -22,6 +22,8 @@ setup(
     [epeolatry.parsers]
     pdf   = epeolatry.parsers.pdf
     image = epeolatry.parsers.image
+    [console_scripts]
+    epeolatry = epeolatry.console:cli
     """,
     classifiers=[
         'Development Status :: 4 - Beta',
